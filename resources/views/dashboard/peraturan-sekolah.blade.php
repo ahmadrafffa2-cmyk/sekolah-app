@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="max-w-4xl mx-auto">
-    <a href="{{ route('dashboard') }}" class="inline-block mb-4 text-blue-600 font-bold">← Kembali</a>
+    <a href="/dashboard" class="inline-block mb-4 text-blue-600 font-bold">← Kembali</a>
 
     <h1 class="text-2xl font-bold mb-1">📜 Peraturan Sekolah</h1>
     <p class="text-gray-500 mb-6">Wajib dibaca & ditaati semua siswa.</p>

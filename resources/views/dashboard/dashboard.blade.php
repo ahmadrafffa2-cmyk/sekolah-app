@@ -84,7 +84,7 @@
             </div>
         </div>
     </div>
-    <div class="col-md-4 mb-3">
+    <div class="col-12 col-md-6 col-lg-4 mb-3">
         <div class="card h-100 border-0" style="background:linear-gradient(135deg,#FDFFB6,#CAFFBF); border-radius:15px;">
             <div class="card-body">
                 <h5 style="font-size:16px; font-weight:600; margin-bottom:5px;">💰 Tabungan Siswa</h5>

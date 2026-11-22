@@ -2,29 +2,25 @@
 
 @section('content')
 <div class="max-w-4xl mx-auto">
-    <a href="/dashboard" class="inline-block mb-4 text-blue-600 font-bold">← Kembali</a>
+    <a href="/dashboard" style="display:inline-block; background:#2563eb; color:white; padding:8px 18px; border-radius:999px; font-weight:bold; font-size:14px; text-decoration:none; box-shadow:0 4px 10px rgba(0,0,0,0.15); margin-bottom:16px;">← Kembali</a>
 
     <h1 class="text-2xl font-bold mb-1">📜 Peraturan Sekolah</h1>
     <p class="text-gray-500 mb-6">Wajib dibaca & ditaati semua siswa.</p>
 
     <div class="bg-white rounded-2xl shadow p-6 mb-6">
-        <h2 class="text-lg font-bold mb-3">1. Aturan Seragam</h2>
-        <table class="w-full">
-            <tr class="bg-blue-600 text-white">
-                <th class="text-left px-4 py-2">Hari</th>
-                <th class="text-left px-4 py-2">Seragam</th>
-            </tr>
-            <tr class="border-b"><td class="px-4 py-2">Senin</td><td class="px-4 py-2">Abu Putih</td></tr>
-            <tr class="border-b bg-gray-50"><td class="px-4 py-2">Selasa</td><td class="px-4 py-2">Abu Putih</td></tr>
-            <tr class="border-b"><td class="px-4 py-2">Rabu</td><td class="px-4 py-2">Batik</td></tr>
-            <tr class="border-b bg-gray-50"><td class="px-4 py-2">Kamis</td><td class="px-4 py-2">Seragam Hijau</td></tr>
-            <tr><td class="px-4 py-2">Jumat</td><td class="px-4 py-2">Pramuka</td></tr>
-        </table>
+        <h2 class="text-lg font-bold" style="margin-bottom:8px;">1. Aturan Seragam</h2>
+        <ul class="space-y-2" style="margin-top:0;">
+            <li>📅 <b>Senin</b> - Abu Putih</li>
+            <li>📅 <b>Selasa</b> - Abu Putih</li>
+            <li>📅 <b>Rabu</b> - Batik</li>
+            <li>📅 <b>Kamis</b> - Seragam Hijau</li>
+            <li>📅 <b>Jumat</b> - Pramuka</li>
+        </ul>
     </div>
 
     <div class="bg-white rounded-2xl shadow p-6">
-        <h2 class="text-lg font-bold mb-3">2. Peraturan Umum</h2>
-        <ul class="space-y-2">
+        <h2 class="text-lg font-bold" style="margin-bottom:8px;">2. Peraturan Umum</h2>
+        <ul class="space-y-2" style="margin-top:0;">
             <li>✅ Datang tepat waktu sebelum jam 07.30</li>
             <li>✅ Memakai seragam sesuai jadwal di atas</li>
             <li>✅ Memakai sepatu hitam dan kaos kaki putih</li>
